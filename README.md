@@ -11,3 +11,7 @@ Implemention of Project Car Services Application
 7)	Once it is done, the service to invoke the methods can be easily done based on the methods or stub created by wsdl.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/3.png)
 8)	Next right click over the client application to get the index or home page of the client.
+9) Now the Login Page of the application will be open.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/login.PNG)
+10)Once we login with authorized credentials, the home page will be shown where all the features and services can be seen.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
