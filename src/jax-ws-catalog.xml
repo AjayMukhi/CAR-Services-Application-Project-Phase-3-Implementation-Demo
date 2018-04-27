@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/PaymentService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/PaymentService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/PaymentService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/PaymentService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/LoginService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/LoginService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/LoginService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/LoginService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/RegisterService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/RegisterService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/RegisterService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/RegisterService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/ProfileService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/ProfileService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/ProfileService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/ProfileService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/DealerService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/DealerService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/DealerService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/DealerService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CarService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CarService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CarService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CarService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CartService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CartService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CartService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CartService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CarPartsService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CarPartsService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/CarPartsService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/CarPartsService.xsd_1.xsd"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/OrderService?wsdl" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/OrderService.wsdl"/>
+    <system systemId="http://LAPTOP-GT898CL0:8080/CarServicesWebApp/OrderService?xsd=1" uri="wsdl/LAPTOP-GT898CL0_8080/CarServicesWebApp/OrderService.xsd_1.xsd"/>
+</catalog>

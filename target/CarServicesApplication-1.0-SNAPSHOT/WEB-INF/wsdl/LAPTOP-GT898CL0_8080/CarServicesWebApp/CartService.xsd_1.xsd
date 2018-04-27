@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://webcarservices.services.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webcarservices.services.com/">
+
+<xs:element name="Exception" type="tns:Exception"/>
+
+<xs:element name="cart" type="tns:cart"/>
+
+<xs:element name="createCart" type="tns:createCart"/>
+
+<xs:element name="createCartResponse" type="tns:createCartResponse"/>
+
+<xs:element name="deleteCartById" type="tns:deleteCartById"/>
+
+<xs:element name="deleteCartByIdResponse" type="tns:deleteCartByIdResponse"/>
+
+<xs:element name="getCartById" type="tns:getCartById"/>
+
+<xs:element name="getCartByIdResponse" type="tns:getCartByIdResponse"/>
+
+<xs:element name="getCartByUserName" type="tns:getCartByUserName"/>
+
+<xs:element name="getCartByUserNameResponse" type="tns:getCartByUserNameResponse"/>
+
+<xs:element name="getCartCountByUserName" type="tns:getCartCountByUserName"/>
+
+<xs:element name="getCartCountByUserNameResponse" type="tns:getCartCountByUserNameResponse"/>
+
+<xs:element name="getCartList" type="tns:getCartList"/>
+
+<xs:element name="getCartListResponse" type="tns:getCartListResponse"/>
+
+<xs:complexType name="getCartCountByUserName">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartCountByUserNameResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCartById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCartByIdResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Exception">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartById">
+<xs:sequence>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cart" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="cart">
+<xs:sequence>
+<xs:element name="color" type="xs:string" minOccurs="0"/>
+<xs:element name="description" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="imageURL" type="xs:string" minOccurs="0"/>
+<xs:element name="partid" type="xs:string" minOccurs="0"/>
+<xs:element name="partname" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:double"/>
+<xs:element name="quantity" type="xs:int"/>
+<xs:element name="retailPrice" type="xs:double"/>
+<xs:element name="sku" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+<xs:element name="userid" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartByUserName">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartByUserNameResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cart" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCart">
+<xs:sequence>
+<xs:element name="arg0" type="tns:cart" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCartResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCartList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCartListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:cart" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

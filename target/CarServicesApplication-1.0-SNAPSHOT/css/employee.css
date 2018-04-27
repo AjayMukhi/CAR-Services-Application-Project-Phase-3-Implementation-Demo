@@ -1,0 +1,280 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2018, 7:25:10 PM
+    Author     : AjayMukhi
+*/
+
+
+    .ctaLink, .chatLink {
+        font-size: 14px !important;
+    }
+
+    .claim-dealer-tablet .td {
+        min-width: 250px;
+    }
+
+    #dealerLink {
+        -ms-border-bottom-right-radius: 0;
+        border-bottom-right-radius: 0;
+        -ms-border-top-right-radius: 0;
+        border-top-right-radius: 0;
+        border: 1px solid #00adc2;
+    }
+    #serviceLink {
+        -ms-border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0;
+        -ms-border-top-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+    #dealerLink:after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+        border-top: solid 10px #00adc2;
+    }
+    #overview h5 {
+        font-size: 12px !important;
+        text-transform: uppercase !important;
+    }
+    .rating-static, .rating-static-indv {
+        background-image: url("https://www.dealerrater.com/ncdn/s/110.20180319.1/Graphics/bg_star_rating_new_orange_lt.png");
+    }
+    #rating-details {
+        width: 245px;
+        z-index: 2;
+        top: 9px;
+        right: 190px;
+    }
+    #badge-tooltip {
+        position: absolute;
+        background: #ffffff;
+        border: 2px solid #00adc2;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        padding: 10px;
+        width: 190px;
+        top: 140px;
+        left: -50px;
+    }
+
+    #badge-tooltip:after,  #badge-tooltip:before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+    #badge-tooltip:after {
+        border-bottom-color: #ffffff;
+        border-width: 10px;
+        margin-left: -10px;
+    }
+
+    #badge-tooltip:before {
+        border-bottom-color: #00adc2;
+        border-width: 13px;
+        margin-left: -13px;
+    }
+    .about-us {
+        white-space: pre-line;
+        max-height: 100px;
+        overflow: hidden;
+    }
+    .awards-column {
+        width: 180px;
+    }
+    .claim-column {
+        width: 240px;
+    }
+    .border-left-orange {
+        border-left: 2px solid #fa7412;
+    }
+    #awardsDialog, #hoursDialog {
+        height: auto !important;
+        width: 100% !important;
+    }
+    #awardsWrapper {
+        max-height: 420px;
+        overflow-y: auto;
+    }
+    .review-page-nav a.active, #persistentNav .active {
+        border-bottom: 3px solid #00adc2;
+    }
+    #persistentNav{
+        position: fixed;
+        top: 0;
+        left:0;
+        z-index: 1001;
+    }
+    .persistentNavWrapper{
+        margin: auto;
+        max-width: 1024px !important;
+        clear: both;
+    }
+    #persistentNav a{
+        padding-bottom: 31px !important;
+    }
+    .wide-layout {
+        margin-top: -10px;
+    }
+    #persistentNav .wide-layout a {
+        padding-bottom: 12px !important;
+    }
+    .ad-column {
+        width: 315px;
+    }
+    .recommend-column {
+        width: 425px;
+    }
+    .overflow-auto.dealer-info {
+        padding-bottom: 2px;
+    }
+    @media (max-width: 1100px) {
+        #badge-tooltip {
+            left: 0;
+        }
+        #badge-tooltip:after, #badge-tooltip:before {
+            left: 25%;
+        }
+    }
+    @media (max-width: 975px) {
+        .phone {
+            display: block;
+            border: 0;
+            padding: 0 !important;
+            line-height: 1.5em;
+        }
+        .about-us-column {
+            padding-right: 10px !important;
+            padding-top: 50px !important;
+        }
+        .recommend-tablet-column {
+            padding-top: 70px !important;
+        }
+    }
+    @media (max-width: 767px) {
+        #pageContainer, .section-container#reviewsSection {
+            padding: 0 !important;
+        }
+        .overview-section {
+            padding: 0 !important;
+            display: table;
+            width: 100%;
+        }
+        .warLink {
+            margin-top: 10px;
+            display: inline-block !important;
+            float: none !important;
+        }
+        .ctaLink {
+            display: table-cell;
+            vertical-align: middle;
+            -ms-border-radius: 0;
+            border-radius: 0;
+            padding: 10px 5px !important;
+            font-size: 12px !important;
+            border: 1px solid #fff !important;
+            float: none !important;
+            line-height: 1.25em !important;
+            height: 42px;
+        }
+
+        #serviceLink {
+            background: #cceff3;
+            color: #00adc2;
+        }
+        .star-icon {
+            display: inline !important;
+        }
+        #badge {
+            margin-top: 12px;
+        }
+        .badge-tooltip {
+            width: 65px;
+        }
+        #dealerName {
+            font-size: 20px !important;
+        }
+        #dealerAddress {
+            font-size: 14px !important;
+            display: block;
+            float: left;
+            clear: both;
+            margin-top: 10px;
+        }
+        .mobile-link {
+            font-size: 14px !important;
+        }
+        #awardsDialog {
+            padding: 0 !important;
+        }
+        #awardsWrapper {
+            max-height: none;
+            overflow: auto;
+        }
+        .doty-award-image{
+            height: 150px;
+        }
+        .csa-award-image{
+            width: 150px;
+        }
+        #hoursDialog {
+            padding: 0 10px !important;
+        }
+        .claim-dealer-tablet .td {
+            width: 100%;
+            display: block !important;
+        }
+        .claim-dealer-tablet .primary-button.teal, .awards-mobile {
+            display: inline-block !important;
+        }
+        .chatLink.war {
+            float: none !important;
+            display: inline-block !important;
+        }
+        .overview-mobile-nav a.active {
+            background: #107dbf;
+            border-color: #cfe5f2;
+        }
+    }
+    @media (max-width: 550px) {
+        .ctaLink {
+            height: 60px;
+        }
+        .star-icon {
+            display: inline !important;
+            float: left;
+            padding-right: 2px;
+            padding-top: 2px;
+        }
+        .wrench-icon {
+            display: block;
+            float: left;
+            padding-right: 3px;
+            padding-top: 5px;
+        }
+        .review-btn-text {
+            width: 65px;
+            float: left;
+        }
+        .service-btn-text {
+            width: 60px;
+            float: left;
+        }
+    }
+
+

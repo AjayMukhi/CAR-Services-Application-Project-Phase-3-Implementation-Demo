@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://webcarservices.services.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webcarservices.services.com/">
+
+<xs:element name="Exception" type="tns:Exception"/>
+
+<xs:element name="createPayment" type="tns:createPayment"/>
+
+<xs:element name="createPaymentResponse" type="tns:createPaymentResponse"/>
+
+<xs:element name="custOrder" type="tns:custOrder"/>
+
+<xs:element name="getPaymentDetailsId" type="tns:getPaymentDetailsId"/>
+
+<xs:element name="getPaymentDetailsIdResponse" type="tns:getPaymentDetailsIdResponse"/>
+
+<xs:element name="getPaymentDetailsList" type="tns:getPaymentDetailsList"/>
+
+<xs:element name="getPaymentDetailsListResponse" type="tns:getPaymentDetailsListResponse"/>
+
+<xs:element name="paymentDetails" type="tns:paymentDetails"/>
+
+<xs:complexType name="createPayment">
+<xs:sequence>
+<xs:element name="arg0" type="tns:paymentDetails" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="paymentDetails">
+<xs:sequence>
+<xs:element name="amount" type="xs:double"/>
+<xs:element name="billingAddress" type="xs:string" minOccurs="0"/>
+<xs:element name="cardNumber" type="xs:string" minOccurs="0"/>
+<xs:element name="cardType" type="xs:string" minOccurs="0"/>
+<xs:element name="city" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="paymentDate" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="paymentId" type="tns:custOrder" minOccurs="0"/>
+<xs:element name="paymentType" type="xs:string" minOccurs="0"/>
+<xs:element name="postalcode" type="xs:string" minOccurs="0"/>
+<xs:element name="state" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="custOrder">
+<xs:sequence>
+<xs:element name="address" type="xs:string" minOccurs="0"/>
+<xs:element name="city" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+<xs:element name="customerId" type="xs:string" minOccurs="0"/>
+<xs:element name="customerName" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="itemId" type="xs:string" minOccurs="0"/>
+<xs:element name="itemName" type="xs:string" minOccurs="0"/>
+<xs:element name="orderDate" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="orderId" type="xs:string" minOccurs="0"/>
+<xs:element name="paymentDetails" type="tns:paymentDetails" minOccurs="0"/>
+<xs:element name="paymentId" type="tns:paymentDetails" minOccurs="0"/>
+<xs:element name="paymentType" type="xs:string" minOccurs="0"/>
+<xs:element name="phone" type="xs:string" minOccurs="0"/>
+<xs:element name="postalcode" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:double" minOccurs="0"/>
+<xs:element name="quantity" type="xs:int"/>
+<xs:element name="state" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createPaymentResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Exception">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPaymentDetailsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPaymentDetailsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:paymentDetails" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPaymentDetailsId">
+<xs:sequence>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPaymentDetailsIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:paymentDetails" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

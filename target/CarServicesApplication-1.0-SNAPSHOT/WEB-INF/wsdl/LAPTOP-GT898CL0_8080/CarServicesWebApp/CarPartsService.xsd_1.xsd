@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://webcarservices.services.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webcarservices.services.com/">
+
+<xs:element name="Exception" type="tns:Exception"/>
+
+<xs:element name="carParts" type="tns:carParts"/>
+
+<xs:element name="createCarParts" type="tns:createCarParts"/>
+
+<xs:element name="createCarPartsResponse" type="tns:createCarPartsResponse"/>
+
+<xs:element name="deleteCarPartsById" type="tns:deleteCarPartsById"/>
+
+<xs:element name="deleteCarPartsByIdResponse" type="tns:deleteCarPartsByIdResponse"/>
+
+<xs:element name="getCarPartsACDelcoList" type="tns:getCarPartsACDelcoList"/>
+
+<xs:element name="getCarPartsACDelcoListResponse" type="tns:getCarPartsACDelcoListResponse"/>
+
+<xs:element name="getCarPartsAirCleanerList" type="tns:getCarPartsAirCleanerList"/>
+
+<xs:element name="getCarPartsAirCleanerListResponse" type="tns:getCarPartsAirCleanerListResponse"/>
+
+<xs:element name="getCarPartsAntennaList" type="tns:getCarPartsAntennaList"/>
+
+<xs:element name="getCarPartsAntennaListResponse" type="tns:getCarPartsAntennaListResponse"/>
+
+<xs:element name="getCarPartsArmourAllList" type="tns:getCarPartsArmourAllList"/>
+
+<xs:element name="getCarPartsArmourAllListResponse" type="tns:getCarPartsArmourAllListResponse"/>
+
+<xs:element name="getCarPartsBoltList" type="tns:getCarPartsBoltList"/>
+
+<xs:element name="getCarPartsBoltListResponse" type="tns:getCarPartsBoltListResponse"/>
+
+<xs:element name="getCarPartsBrakeDiscList" type="tns:getCarPartsBrakeDiscList"/>
+
+<xs:element name="getCarPartsBrakeDiscListResponse" type="tns:getCarPartsBrakeDiscListResponse"/>
+
+<xs:element name="getCarPartsBrakePadList" type="tns:getCarPartsBrakePadList"/>
+
+<xs:element name="getCarPartsBrakePadListResponse" type="tns:getCarPartsBrakePadListResponse"/>
+
+<xs:element name="getCarPartsById" type="tns:getCarPartsById"/>
+
+<xs:element name="getCarPartsByIdResponse" type="tns:getCarPartsByIdResponse"/>
+
+<xs:element name="getCarPartsConnectorList" type="tns:getCarPartsConnectorList"/>
+
+<xs:element name="getCarPartsConnectorListResponse" type="tns:getCarPartsConnectorListResponse"/>
+
+<xs:element name="getCarPartsCoolingSystemList" type="tns:getCarPartsCoolingSystemList"/>
+
+<xs:element name="getCarPartsCoolingSystemListResponse" type="tns:getCarPartsCoolingSystemListResponse"/>
+
+<xs:element name="getCarPartsDetailsBypartId" type="tns:getCarPartsDetailsBypartId"/>
+
+<xs:element name="getCarPartsDetailsBypartIdResponse" type="tns:getCarPartsDetailsBypartIdResponse"/>
+
+<xs:element name="getCarPartsDoorWeatherstripSteelList" type="tns:getCarPartsDoorWeatherstripSteelList"/>
+
+<xs:element name="getCarPartsDoorWeatherstripSteelListResponse" type="tns:getCarPartsDoorWeatherstripSteelListResponse"/>
+
+<xs:element name="getCarPartsElectricWiresList" type="tns:getCarPartsElectricWiresList"/>
+
+<xs:element name="getCarPartsElectricWiresListResponse" type="tns:getCarPartsElectricWiresListResponse"/>
+
+<xs:element name="getCarPartsEngineList" type="tns:getCarPartsEngineList"/>
+
+<xs:element name="getCarPartsEngineListResponse" type="tns:getCarPartsEngineListResponse"/>
+
+<xs:element name="getCarPartsIgnitionList" type="tns:getCarPartsIgnitionList"/>
+
+<xs:element name="getCarPartsIgnitionListResponse" type="tns:getCarPartsIgnitionListResponse"/>
+
+<xs:element name="getCarPartsLEDBulbsList" type="tns:getCarPartsLEDBulbsList"/>
+
+<xs:element name="getCarPartsLEDBulbsListResponse" type="tns:getCarPartsLEDBulbsListResponse"/>
+
+<xs:element name="getCarPartsLightBulbsList" type="tns:getCarPartsLightBulbsList"/>
+
+<xs:element name="getCarPartsLightBulbsListResponse" type="tns:getCarPartsLightBulbsListResponse"/>
+
+<xs:element name="getCarPartsList" type="tns:getCarPartsList"/>
+
+<xs:element name="getCarPartsListResponse" type="tns:getCarPartsListResponse"/>
+
+<xs:element name="getCarPartsLugNutsList" type="tns:getCarPartsLugNutsList"/>
+
+<xs:element name="getCarPartsLugNutsListResponse" type="tns:getCarPartsLugNutsListResponse"/>
+
+<xs:element name="getCarPartsPowerTorqueList" type="tns:getCarPartsPowerTorqueList"/>
+
+<xs:element name="getCarPartsPowerTorqueListResponse" type="tns:getCarPartsPowerTorqueListResponse"/>
+
+<xs:element name="getCarPartsShellRotelaList" type="tns:getCarPartsShellRotelaList"/>
+
+<xs:element name="getCarPartsShellRotelaListResponse" type="tns:getCarPartsShellRotelaListResponse"/>
+
+<xs:element name="getCarPartsTowelList" type="tns:getCarPartsTowelList"/>
+
+<xs:element name="getCarPartsTowelListResponse" type="tns:getCarPartsTowelListResponse"/>
+
+<xs:element name="getCarPartsWashersList" type="tns:getCarPartsWashersList"/>
+
+<xs:element name="getCarPartsWashersListResponse" type="tns:getCarPartsWashersListResponse"/>
+
+<xs:element name="getCarPartsWheelsList" type="tns:getCarPartsWheelsList"/>
+
+<xs:element name="getCarPartsWheelsListResponse" type="tns:getCarPartsWheelsListResponse"/>
+
+<xs:element name="getCarPartsWiperBladesList" type="tns:getCarPartsWiperBladesList"/>
+
+<xs:element name="getCarPartsWiperBladesListResponse" type="tns:getCarPartsWiperBladesListResponse"/>
+
+<xs:element name="updateCarPartsById" type="tns:updateCarPartsById"/>
+
+<xs:element name="updateCarPartsByIdResponse" type="tns:updateCarPartsByIdResponse"/>
+
+<xs:complexType name="getCarPartsTowelList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsTowelListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="carParts">
+<xs:sequence>
+<xs:element name="color" type="xs:string" minOccurs="0"/>
+<xs:element name="description" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="imageURL" type="xs:string" minOccurs="0"/>
+<xs:element name="partId" type="xs:string" minOccurs="0"/>
+<xs:element name="partName" type="xs:string" minOccurs="0"/>
+<xs:element name="price" type="xs:double" minOccurs="0"/>
+<xs:element name="quantityinstock" type="xs:int"/>
+<xs:element name="retailPrice" type="xs:double" minOccurs="0"/>
+<xs:element name="sku" type="xs:string" minOccurs="0"/>
+<xs:element name="stock" type="xs:string" minOccurs="0"/>
+<xs:element name="type" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLEDBulbsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLEDBulbsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCarPartsById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteCarPartsByIdResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="Exception">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWashersList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWashersListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCarParts">
+<xs:sequence>
+<xs:element name="arg0" type="tns:carParts" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCarPartsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsShellRotelaList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsShellRotelaListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBoltList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBoltListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsAirCleanerList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsAirCleanerListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsEngineList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsEngineListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBrakePadList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBrakePadListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsDoorWeatherstripSteelList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsDoorWeatherstripSteelListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsDetailsBypartId">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsDetailsBypartIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWiperBladesList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWiperBladesListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsArmourAllList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsArmourAllListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLugNutsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLugNutsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsAntennaList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsAntennaListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWheelsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsWheelsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsPowerTorqueList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsPowerTorqueListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCarPartsById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int" minOccurs="0"/>
+<xs:element name="arg1" type="tns:carParts" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateCarPartsByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsCoolingSystemList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsCoolingSystemListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLightBulbsList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsLightBulbsListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsElectricWiresList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsElectricWiresListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBrakeDiscList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsBrakeDiscListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsACDelcoList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsACDelcoListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsConnectorList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsConnectorListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsById">
+<xs:sequence>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsIgnitionList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCarPartsIgnitionListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:carParts" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

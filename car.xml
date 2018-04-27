@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+
+<product_detail>
+    <product id="TOY01">
+      <name>Toyota-spark</name>
+      <model>Toyota</model>
+      <vin>TY002344566</vin>      
+      <description>Toyota spark with black color</description>
+      <displayunder>toyota</displayunder>
+      <retailprice>64320.00</retailprice>
+      <price>41320.00</price>      
+      <engine>4 Cylinder Engine-1.8L</engine>
+      <body>Cab</body>
+      <trans>Automatic</trans>
+      <year>2017</year>
+      <interior>JET BLACK LEATHER</interior>
+      <exterior>QUICK SILVER METTALIC</exterior>
+      <imageurl>images/toyota-spark.png</imageurl>
+    </product>  
+    
+          
+                      
+</product_detail>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://webcarservices.services.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://webcarservices.services.com/">
+
+<xs:element name="Exception" type="tns:Exception"/>
+
+<xs:element name="getUserById" type="tns:getUserById"/>
+
+<xs:element name="getUserByIdResponse" type="tns:getUserByIdResponse"/>
+
+<xs:element name="getUserByUserName" type="tns:getUserByUserName"/>
+
+<xs:element name="getUserByUserNameResponse" type="tns:getUserByUserNameResponse"/>
+
+<xs:element name="getUserLogin" type="tns:getUserLogin"/>
+
+<xs:element name="getUserLoginResponse" type="tns:getUserLoginResponse"/>
+
+<xs:element name="getUsertList" type="tns:getUsertList"/>
+
+<xs:element name="getUsertListResponse" type="tns:getUsertListResponse"/>
+
+<xs:element name="user" type="tns:user"/>
+
+<xs:complexType name="getUsertList">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getUsertListResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:user" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="user">
+<xs:sequence>
+<xs:element name="address" type="xs:string" minOccurs="0"/>
+<xs:element name="city" type="xs:string" minOccurs="0"/>
+<xs:element name="country" type="xs:string" minOccurs="0"/>
+<xs:element name="email" type="xs:string" minOccurs="0"/>
+<xs:element name="firstname" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+<xs:element name="lastname" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="phone" type="xs:string" minOccurs="0"/>
+<xs:element name="state" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="usertype" type="xs:string" minOccurs="0"/>
+<xs:element name="zipcode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserByUserName">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserByUserNameResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:user" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserLogin">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserLoginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserById">
+<xs:sequence>
+<xs:element name="id" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:user" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Exception">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
