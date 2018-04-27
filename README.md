@@ -40,6 +40,9 @@ Customers will have an option to order these products online by making an online
 
 19) each user can update their profile.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/userprofile.PNG)
+20) Now the user can review the order.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/order.PNG)
+
 
 
 
