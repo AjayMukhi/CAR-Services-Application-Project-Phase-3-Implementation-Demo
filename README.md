@@ -20,11 +20,15 @@ The scope of the project is to develop website with various features such as sig
 The eCommerce website is a platform through which car owners can list their cars for sell, customers can view these cars, dealers can add the products like Fender, Exterior door handle, Interior door handle, etc. 
 Customers will have an option to order these products online by making an online payment through PayPal.
 12) Admin can add,update delete Cars 
-![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
-13) Admin can add, update and delete Car Parts
-![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Car.PNG)
 
-14) Admin can add profile and update the profile
-![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+13) Admin can add,update delete Dealers profile.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/dealer.PNG)
+
+14) Admin can add, update and delete Car Parts
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/parts.PNG)
+
+15) Admin can add profile and update the profile
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/profile.PNG)
 
 
