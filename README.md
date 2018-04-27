@@ -15,3 +15,16 @@ Implemention of Project Car Services Application
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/login%20page.PNG)
 10)Once we login with authorized credentials, the home page will be shown where all the features and services can be seen.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+11) Scope of the project
+The scope of the project is to develop website with various features such as sign up, sign in, search products, checkout, contact provider, etc. The website will have 3 different types of user: 1) Customer 2) Provider and 3) Admin. 
+The eCommerce website is a platform through which car owners can list their cars for sell, customers can view these cars, dealers can add the products like Fender, Exterior door handle, Interior door handle, etc. 
+Customers will have an option to order these products online by making an online payment through PayPal.
+12) Admin can add,update delete Cars 
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+13) Admin can add, update and delete Car Parts
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+
+14) Admin can add profile and update the profile
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/home%20page.PNG)
+
+
