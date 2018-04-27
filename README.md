@@ -31,4 +31,15 @@ Customers will have an option to order these products online by making an online
 15) Admin can add profile and update the profile
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/profile.PNG)
 
+16) User has the privileges to select and buy the car parts 
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/select.PNG)
+17) Item will be added to the cart.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/addtocart.PNG)
+18)The added item can be ordered by doing the payment either cash or card.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/payment.PNG)
+
+19) each user can update their profile.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/userprofile.PNG)
+
+
 
