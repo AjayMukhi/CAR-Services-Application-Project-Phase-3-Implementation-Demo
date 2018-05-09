@@ -22,25 +22,28 @@ Customers will have an option to order these products online by making an online
 12) Admin can add,update delete Cars 
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Car.PNG)
 
-13) Admin can add,update delete Dealers profile.
+13) Contact details where the google api was used for the store location deriving the logitude and latitude.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Contact.PNG)
+
+14) Admin can add,update delete Dealers profile.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/dealer.PNG)
 
-14) Admin can add, update and delete Car Parts
+15) Admin can add, update and delete Car Parts
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/parts.PNG)
 
-15) Admin can add profile and update the profile
+16) Admin can add profile and update the profile
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/profile.PNG)
 
-16) User has the privileges to select and buy the car parts 
+17) User has the privileges to select and buy the car parts 
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/select.PNG)
-17) Item will be added to the cart.
+18) Item will be added to the cart.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/addtocart.PNG)
-18)The added item can be ordered by doing the payment either cash or card.
+19)The added item can be ordered by doing the payment either cash or card.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/payment.PNG)
 
-19) each user can update their profile.
+20) each user can update their profile.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/userprofile.PNG)
-20) Now the user can review the order.
+21) Now the user can review the order.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/order.PNG)
 
 
