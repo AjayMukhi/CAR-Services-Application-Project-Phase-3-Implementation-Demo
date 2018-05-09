@@ -22,11 +22,13 @@ Customers will have an option to order these products online by making an online
 12) Admin can add,update delete Cars 
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Car.PNG)
 
-13) Contact details where the google api was used for the store location implementing the longitude and latitude.
+
+13) Admin can add,update delete Dealers profile.
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/dealer.PNG)
+
+14) Contact details where the google api was used for the store location implementing the longitude and latitude.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/contact.PNG)
 
-14) Admin can add,update delete Dealers profile.
-![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/dealer.PNG)
 
 15) Admin can add, update and delete Car Parts
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/parts.PNG)
