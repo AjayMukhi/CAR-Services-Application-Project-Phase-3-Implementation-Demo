@@ -23,7 +23,7 @@ Customers will have an option to order these products online by making an online
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Car.PNG)
 
 13) Contact details where the google api was used for the store location deriving the logitude and latitude.
-![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/Contact.PNG)
+![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/contact.PNG)
 
 14) Admin can add,update delete Dealers profile.
 ![alt text](https://github.com/AjayMukhi/Project-Phase-3-Implementation-Demo/blob/master/images/dealer.PNG)
